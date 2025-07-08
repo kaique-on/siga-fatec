@@ -1,0 +1,132 @@
+/* falta programar corretamente as classes red, orange, green */
+
+/* ------------ BOTAO ------------------------------------- */
+.button {
+    	color: var(--cps-color-text-primary) !important;
+    	border-top-color: var(--cps-color-elevation-top-control)!important;
+    	border-right-color: var(--cps-color-stroke-primary);
+    	border-bottom-color: var(--cps-color-elevation-bottom-control)!important;
+    	border-left-color: var(--cps-color-stroke-primary)!important;
+    	background-color: var(--cps-color-fill-primary)!important;
+	margin-top:5px;
+}
+.button:hover{color: var(--bs-link-color) !important;}
+
+.uc_bt {
+    	font-family: var(--uc_texto-font);
+    	font-weight: var(--cps-font-weight-normal);
+    	font-size: var(--uc_texto-size);
+    	display: inline-flex;
+    	align-items: stretch;
+    	justify-content: center;
+   	transition: var(--cps-transition-fast) background-color, var(--cps-transition-fast) color, var(--cps-transition-fast) border;
+    	border-width: var(--cps-button-border-width);
+    	border-style: solid;
+    	border-radius: var(--cps-border-radius-medium);
+    	cursor: inherit;
+    	padding-left: 10px;
+    	padding-right: 10px;
+    	padding-top:5px;
+    	padding-bottom: 5px;
+    	/*min-width: 100px;*/
+   	vertical-align: middle;
+    	text-decoration: none;
+   	white-space: nowrap;
+    	user-select: none;
+}
+
+.uc_bticon {
+	display: inline-block; 
+	cursor: pointer; 
+	text-decoration: none; 
+	align-self: center;
+	text-align: center;
+	border-radius: 4px;
+	transition: background-color .1s ease;
+	box-sizing: border-box;
+	padding-left:0.3rem;
+	padding-right:0.2rem;
+	padding-top:0.2rem;
+	padding-bottom:0.2rem;
+}
+
+/* ---*/
+.uc_btdefault {
+    border-top-color: var(--cps-color-elevation-top-control);
+    border-right-color: var(--cps-color-stroke-primary);
+    border-bottom-color: var(--cps-color-elevation-bottom-control);
+    border-left-color: var(--cps-color-stroke-primary);
+    background-color: var(--cps-color-fill-primary);
+    color: var(--cps-color-text-primary);
+}
+
+/* 
+.uc_btdefault:hover 			{color: var(--uc_ahover_color);background-color: transparent !important;}
+.uc_btdefault:active 			{color: var(--uc_aactive_color);background-color: #395a62;}
+.uc_btdefault:focus 			{color: var(--uc_texto-cor);background-color: var(--uc_bs-blue); }
+---*/
+.uc_btblue 				{color: white;background-color: var(--uc_bs-blue); }
+.uc_btblue:hover 			{color: white;background-color: #21464f;}
+.uc_btblue:active 			{color: white;background-color: #395a62;}
+.uc_btblue:focus 			{color: white;background-color: var(--uc_bs-blue); }
+/* ---*/
+.uc_btblack 				{color: white;background-color: #000000;}
+.uc_btblack:hover 			{color: white;background-color: #2c2c2c;}
+.uc_btblack:active 			{color: white;background-color: #454545;}
+.uc_btblack:focus 			{color: white;background-color: #000000;}
+/* ---*/
+.uc_btred 				{color: white;background-color: var(--uc_bs-red);}
+.uc_btred:hover 			{color: white;background-color: #2c2c2c;}
+.uc_btred:active 			{color: white;background-color: #454545;}
+.uc_btred:focus 			{color: white;background-color: var(--uc_bs-red);}
+/* ---*/
+.uc_btorange				{color: white;background-color: var(--uc_bs-orange);}
+.uc_btorange:hover 			{color: white;background-color: #2c2c2c;}
+.uc_btorange:active 			{color: white;background-color: #454545;}
+.uc_btorange:focus 			{color: white;background-color: var(--uc_bs-orange);}
+/* ---*/
+.uc_btgreen 				{color: white;background-color: var(--uc_bs-green);}
+.uc_btgreen:hover 			{color: white;background-color: #2c2c2c;}
+.uc_btgreen:active 			{color: white;background-color: #454545;}
+.uc_btgreen:focus 			{color: white;background-color: var(--uc_bs-green);}
+/* ---*/
+
+/* ---*/
+.uc_btoutblue 			{color: var(--uc_bs-blue); background-color: inherit; border:1px solid var(--uc_bs-blue);}
+.uc_btoutblue:hover 		{color: #21464f; background-color: inherit; border:1px solid #21464f;}
+.uc_btoutblue:active 		{color: #395a62; background-color: inherit; border:1px solid #395a62;}
+.uc_btoutblue:focus 		{color: var(--uc_bs-blue); background-color: inherit; border: 1px solidvar(--uc_bs-blue);}
+/* ---*/
+.uc_btoutblueclear 			{color: var(--uc_bs-blue); background-color: inherit; border:1px solid inherit;}
+.uc_btoutblueclear:hover 		{color: #21464f; background-color: inherit; border:1px solid #21464f;}
+.uc_btoutblueclear:active 		{color: #395a62; background-color: inherit;border:1px solid #395a62;}
+.uc_btoutblueclear:focus 		{color: var(--uc_bs-blue); background-color: inherit;border: 1px solidvar(--uc_bs-blue);}
+/* ---*/
+.uc_btoutblack 			{color: black;background-color: inherit;border:1px solid #000000;}
+.uc_btoutblack:hover 		{color: black;background-color: inherit; border:1px solid #000000;}
+.uc_btoutblack:active 		{color: black;background-color: inherit; border:1px solid #000000;}
+.uc_btoutblack:focus		{color:	black;background-color: inherit; border: 1px solid #000000;}
+/* ---*/
+.uc_btoutred 			{color: black;background-color: inherit; border:1px solid var(--uc_bs-red);}
+.uc_btoutred:hover 			{color: black;background-color: inherit; border:1px solid #000000;}
+.uc_btoutred:active 		{color: black;background-color: inherit; border:1px solid #000000;}
+.uc_btoutred:focus 			{color:	black;background-color: inherit; border:1px solid var(--uc_bs-red);}
+/* ---*/
+.uc_btoutgreen 			{color: black;background-color: inherit; border:1px solid var(--uc_bs-green);}
+.uc_btoutgreen:hover 		{color: black;background-color: inherit; border:1px solid #000000;}
+.uc_btoutgreen:active 		{color: black;background-color: inherit; border:1px solid #000000;}
+.uc_btoutgreen:focus 		{color:	black;background-color: inherit; border:1px solid var(--uc_bs-green);}
+/* ---*/
+.uc_btoutorange 			{color: black;background-color: inherit; border:1px solid var(--uc_bs-orange);}
+.uc_btoutorange:hover 		{color: black;background-color: inherit; border:1px solid #000000;}
+.uc_btoutorange:active 		{color: black;background-color: inherit; border:1px solid #000000;}
+.uc_btoutorange:focus 		{color: black;background-color: inherit; border:1px solid var(--uc_bs-orange);}
+/* ---*/
+.uc_bticon {font-size:var(--uc_bt-texto-size);}
+.uc_btspace {margin:1px;}
+/* ------------ BOTAO ------------------------------------- */
+
+/* ------------ BUTTON -------------------------------------- */
+.btn  {font-size:var(--uc_texto-size) !important;}
+/* ------------ BUTTON -------------------------------------- */
+

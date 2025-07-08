@@ -1,0 +1,85 @@
+/* ------------ CARD ---------------------------------------- */
+.uc_cardsimples	{border: 1px solid var(--uc_border-cor); padding:10px; width:auto;}
+
+/* card limpo */
+.uc_cardcontainer_clear {margin-bottom:30px; display: flex; flex-direction: row;flex-wrap:wrap;}
+.uc_card_clear 		{background-color: white;}
+.uc_card_clear-body 	{padding-left:30px; padding-right:30px; padding-top:30px; padding-bottom:30px; word-wrap: break-word;}
+.uc_card_clear-title 	{margin-bottom:10px; font-size:18px;} 
+.uc_card_clear-text 	{font-size:12px; text-align: left;} 
+.uc_card_clear-footer 	{} 
+.uc_card_clear-toolbox 	{font-size:12px; display:flex; flex-direction: row; padding-top:30px;} 
+
+/* card regular */
+.uc_cardcontainer 	{margin-bottom:30px;display: flex; flex-direction: row;flex-wrap:wrap;}
+.uc_cardcontainermb10 	{margin-bottom:10px;display: flex; flex-direction: row;flex-wrap:wrap;}
+.uc_cardcontainercolumn {display: flex; flex-direction: column;}
+.uc_card {
+	background-color: 	var(--uc_form-background); 
+ 	border: 		var(--uc_control-border) !important;
+	border-radius:		var(--uc_control-border-radius);
+	background-color: 	var(--uc_control-background);
+	margin-right:5px;
+	margin-bottom:5px;
+	position: relative; 
+	display: flex; 
+	flex-direction: column; 
+	min-width:0; 
+	word-wrap:break-word; 
+	background-clip: border-box; 
+	justify-content:space-between;
+}
+.uc_card-img, .uc_card-img-top {border-top-left-radius:calc(0.25rem - 1px); border-top-right-radius:calc(0.25rem - 1px);} 
+.uc_card-header {border-top-left-radius:4px; border-top-right-radius:4px; height:30px; vertical-align:baseline; width:100%;} 
+.uc_card-title 	{margin-bottom:0.5rem; font-size:var(--uc_texto_titulo-size); font-weight:600;} 
+.uc_card-text 	{padding:10px;} 
+.uc_card-t 	{padding-right:10px; padding-left:10px;} 
+.uc_card-text:last-child {margin-bottom:0;} 
+.uc_card-body 	{padding: 1rem 1rem;}
+.uc_card-footer {} 
+.uc_card-label 	{font-size: var(--uc_texto_xsm); font-weight:400;}
+
+/* card de 30% com minimo de 200p */
+.uc_card220px {width:220px !important; padding:10px;}
+.uc_card20 {width:20% !important;padding:10px;}
+.uc_card25 {width:25% !important;padding:10px;}
+.uc_card70 {width:110px !important;}
+
+.uc_cardw100{width:100%;}
+.uc_cardw99{width:97%;}
+.uc_cardw50{width:49%;}
+.uc_cardw30{width:32%;}
+.uc_card300 	{width:300px;}
+.uc_card300img 	{width:300px; height:auto; }
+
+.uc_card200 {width:200px; overflow-wrap: break-word;}
+.uc_card200img {width:100%; height:150px; background-position: center; overflow-wrap: break-word;}
+
+
+/* card de 30% com minimo de 200p com fundo escuro */
+.uc_card200dark {max-width:200px; background:gray;}
+.uc_card200dark > div > .uc_card-body  					{padding:0px;}
+.uc_card200dark > div > .uc_card-body > .uc_card-title	{font-size:var(--uc_texto-size); color: black;background-color: darkgray; padding-top:5px; padding-bottom:5px; text-align:center;}
+
+/* destacado */
+.uc_card-destacado 				 margin-left:1px; margin-bottom:1px;}
+
+.uc_card-destacado-primary     			{background-color:var(--uc_bs-blue)   	!important; color:var(--uc_bs-white);}
+.uc_card-destacado-danger      			{background-color:var(--uc_bs-red)    	!important; color:var(--uc_bs-white);}
+.uc_card-destacado-warning     			{background-color:var(--uc_bs-yellow) 	!important; color:var(--uc_bs-white);}
+.uc_card-destacado-success				{background-color:var(--uc_bs-green) 	!important; color:var(--uc_bs-white);}
+.uc_card-destacado-light     			{background-color:var(--uc_bs-gray) 	!important; color:var(--uc_bs-white);}
+.uc_card-destacado-textoposicao			{}
+.uc_card-destacado-subtitulo			{font-family:var(--uc_texto-font); font-size:calc(var(--uc_texto-size) + 0.4rem); font-weight:500;}
+.uc_card-destacado-titulo				{font-family:var(--uc_texto-font); font-size:calc(var(--uc_texto-size) + 0.4rem); font-weight:500; width:100%;}
+.uc_card-destacado-texto				{font-family:var(--uc_texto-font); font-size:var(--uc_texto-size);}
+.uc_card-destacado-textotitulo			{font-family:var(--uc_texto-font); font-size:0.9rem; padding-top:5px; padding-right:5px; line-height:20px; width:100%;}
+.uc_card-destacado-icone				{font-family:var(--uc_texto-font); font-size:calc(var(--uc_texto-size) + 0.4rem); position:relative; top:10px; left:10px;}
+.uc_card-destacado-header       		{border-top-left-radius:4px; border-top-right-radius:4px; height:30px; vertical-align:baseline; width:100%; border-bottom: 1px solid rgb(255,255,255,0.3);}
+/* ------------ CARD ---------------------------------------- */
+
+
+.uc_card-icone-size12pt {font-size:12pt;}
+.uc_card-icone-size16pt {font-size:16pt;}
+.uc_card-icone-size20pt {font-size:20pt;}
+

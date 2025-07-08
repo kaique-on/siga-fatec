@@ -1,0 +1,54 @@
+:root{
+ --bs-link-color: #0d6efd;
+ --colors_primary-active: #3015b0;
+ --colors_surface-negative: #121212;
+}
+
+a {
+ color: var(--bs-link-color);
+ text-decoration: underline;
+}
+
+.nav-tabs {
+ margin-left: 20px;
+}
+
+.Tab {
+ background: var(--colors_surface);
+}
+
+div.Tab UL.nav-tabs LI A, div.Tab UL.nav-tabs LI {
+ font-family: var(--cps-font-family-sans);
+ font-weight: var(--cps-font-weight-normal);
+ font-size: var(--cps-button-font-size-medium);
+ text-decoration: none;
+ color: var(--colors_surface-negative);
+ padding: 5px;
+}
+element.style {}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div.Tab UL.nav-tabs LI A, div.Tab UL.nav-tabs LI {
+ text-decoration: none;
+ color: var(--colors_surface-negative);
+ padding: 5px;
+}
+.nav-tabs>LI {
+ display: inline-block;
+}
+div.Tab UL.nav-tabs LI.active A {
+ border-bottom: solid;
+ border-bottom-width: 3px;
+ border-bottom-color: var(--colors_primary-active);
+ text-decoration: none;
+}
+div.Tab UL.nav-tabs LI A, div.Tab UL.nav-tabs LI {
+ text-decoration: none;
+ color: var(--colors_surface-negative);
+ padding: 5px;
+}
+.nav-tabs {
+ border-bottom: 0px !important;
+}
+

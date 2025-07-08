@@ -1,0 +1,60 @@
+
+
+.ErrorMessages{ display:block; position: relative!important; top: 30px; left: -300px; width:300px; z-index:10; color: red; font-weight: 550;}
+
+/* ---------------------------------------------- */
+/* icone do calendario */
+.dp_container .Attribute + span .btn img 	{content: url("calendar_ico.svg");}
+.bg-picture {
+	background-image: url(../style/background_cps.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Calendar {z-index: 6000 !important;}
+.dp_container .Attribute + span .btn img 	{content: url("calendar_ico.svg");}
+
+/* ---------------------------------------------- */
+.ErrorViewer  					{color: red !important;}
+.gx-warning-message				{color: red !important;}
+.gx-label 					{font-weight: 0 !important; font-size: var(--uc_texto_xsm); font-weight:600;}
+
+
+
+.uc_label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+  display: block;
+  color: #1c1c1e;
+}
+
+/* ---------------------------------------------- */
+/* selet adequado para rodar em dispositivo */
+select  {
+
+  padding: 10px 12px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid var(--border-card, #ccc);
+  border-radius: 8px;
+  background-color: #fff;
+  color: var(--text-primary, #1c1c1e);
+  appearance: none; /* Remove estilo padrão em Safari/Chrome */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='12' viewBox='0 0 24 24' width='12' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+select:focus {
+  border-color: var(--accent-color, #005C6D);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 92, 109, 0.15);
+}
+

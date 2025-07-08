@@ -1,0 +1,40 @@
+/* 
+	.form {
+		background-color: var(--uc_body-background) !important;
+	 }
+	.form-container {
+	 border: var(--uc_control-border);
+	 border-radius: var(--uc_control-border-radius);
+	 background-color: var(--uc_control-background);
+	 box-shadow: var(--uc_control-shadow);
+	 padding: 30px; 
+	 margin-bottom: 30px;
+	 margin-left:30px;
+	 margin-right:30px;(
+	}
+
+
+	.form__actions--fixed{
+	 margin-left:30px;	
+	}
+*/
+	.form-horizontal{ 
+		margin-top:0px; 
+		margin-left: 0px; 
+		margin-right: 0px;
+		margin-bottom: 0px;
+	}
+
+
+.atributoescondido {
+ color: white !important; 
+ background-color: white !important;
+}
+
+p.form-control-static > .atributoescondido {
+ color: white !important; 
+ background-color: white !important;
+}
+
+.container-fluid {padding-right: 0px !important; padding-left: 0px !important; margin-right: auto;margin-left: auto;} 
+.container {padding-right: 0px !important; padding-left: 0px !important; margin-right: auto;margin-left: auto;margin-top:60px;}
