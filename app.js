@@ -1,5 +1,5 @@
 function redirecionar(pagina) {    
-    window.location.href = `http://127.0.0.1:5500/sigaaluno/${pagina}.html`;
+    window.location.href = `/${pagina}.html`;
     console.log(`direcionou para: ${pagina}`)
 }
 
